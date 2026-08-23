@@ -1,12 +1,8 @@
-print("olá mundo!")
+numero1 = 30
+numero2 = 15
 
-num1 = 10
-num2 = 15
-
-printfloat (num1 + num2))
-print = float((num1 - num2))
-print = float(input(num1 * num2))
-print = float(input(num1 / num2))
-
-print= resultado (input(num1 + num2 , num1 - num2 , num1 * num2 , num1 / num2 ))
-
+print(numero1 + numero2)
+print(numero1 - numero2)
+print(numero1 * numero2)
+print(numero1 / numero2)
+print(numero1 % numero2)
