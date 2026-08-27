@@ -1,6 +1,6 @@
 for candidato in range(1, 13):
     print("candidato", candidato)
-    ano_nascimento = int(input("digite o ano do nascimento: "))
+    ano_nascimento = int(input(" digite o ano do nascimento: "))
     idade = 2026 - ano_nascimento
     
     if idade < 18:
