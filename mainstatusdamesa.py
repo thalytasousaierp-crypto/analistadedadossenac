@@ -1,4 +1,4 @@
-from statusdamesa import altera_status
+from statusdamesa import alterar_status
 
 mesas = [
     {"mesa": 1 , "status": "Livre"},
@@ -11,7 +11,7 @@ mesas = [
     {"mesa": 8, "status": "Ocupada"},
 ]
    
-altera_status ("mesas")
+alterar_status ("mesas")
 
 
 
