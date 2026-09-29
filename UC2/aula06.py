@@ -5,8 +5,8 @@ import seaborn as sns
 import mysql.connector
 
 ## Continuando exatamente de onde paramos na aula passada (histograma), vamos calcular os quartis e verificar se a média está dentro da faixa interquartil (entre Q1 e Q3).
-precos_array = np.genfromtxt("C:\\Users\\Documents\\BIGDATA\\CursoBigData2026.2\\UC2\\Aula03\\C:\Users\thalyta.martins\Documents\Visual Studio 2017\bigdatasenac\analistadedadossenac-1\vendas_produtos.csv", delimiter=',',skip_header=1,  dtype=None, encoding='utf-8',
-  )
+precos_array = np.genfromtxt("C://Users/thalyta.martins/Documents/Visual Studio 2017/bigdatasenac/analistadedadossenac-1/vendas_produtos.csv", delimiter=',', skip_header=1, dtype=None, encoding='utf-8', usecols=3)
+
 print(precos_array)
 
 # Calcule a média:
